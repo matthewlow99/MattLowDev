@@ -10,7 +10,7 @@
 <div class="fullScreen">
     <div>
         <p class="nameText fadeTextAnimation" style="--delay: 1s;">Matthew Low</p>
-        <p class="nameText fadeTextAnimation" style="font-size: 3em; --delay: 3s;"> software developer</p>
+        <p class="nameText fadeTextAnimation" style="font-size: 3em; --delay: 3s;">Software Developer</p>
     </div>
 
     <div style="width: fit-content">
