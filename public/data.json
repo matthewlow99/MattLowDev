@@ -1,97 +1,6 @@
 [
   {
     "id": 0,
-    "title": "Football QB Simulator",
-    "images": ["/assets/QB_images/qb_img1.png", "/assets/QB_images/qb_img3.png"],
-    "text": [
-      "Football QB Sim marked the inception of my Unity project endeavors in late 2020.Throughout its development, I independently acquired proficiency in fundamental aspects of the Unity Engine, 3D modeling, C# programming, and the exploration of diverse artificial intelligence models tailored for defensive gameplay. While the gameplay itself adheres to a foundational framework, it strategically accommodates player skill progression, thereby offering an engaging and evolving user experience.",
-      "The defensive capabilities have undergone substantial enhancements throughout the development cycle. In the initial stages, the defensive models operated on a predetermined 'dropback' timer, transitioning uniformly into a pursuit state. While effective for longer plays, this approach proved vulnerable to exploitation in the case of short plays, as it lacked responsiveness to receiver cuts. In the current defensive model, the utilization of dropback and pursuit states persists, albeit with a refined methodology. The transition between these states is now triggered by a dynamic assessment of the distance between the receiver and the defender. Specifically, the transition initiates as soon as the distance begins to increase. This strategic modification not only ensures consistent performance for extended routes but also imparts a sense of equilibrium to the defensive response in the context of short routes."
-    ],
-    "productLink": "https://www.indiedb.com/games/football-qb-sim/downloads/qb-4-0",
-    "summary": "Revolutionized Unity project—Football QB Sim, mastering Unity Engine, 3D modeling, and AI models for adaptive defense. Precision gameplay, dynamic transitions, and evolving user engagement.",
-    "languageIcons": [
-      "unity.png",
-      "c-sharp.png"
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Poltergeist",
-    "images": [
-      "/assets/Poltergeist/game_img1.PNG",
-      "/assets/Poltergeist/game_img2.PNG"
-    ],
-    "text": [
-      "Poltergeist marked my initial venture into developing a horror experience, incorporating a roaming ghost AI, diverse rendering methods for the in-game camera, and a deliberate pixelated art style. The AI orchestrates random interactions, including moving item props, opening/closing doors, turning lights off, knocking on walls, footsteps, and visual appearances.",
-      "Poltergeist seamlessly incorporates narrative elements and progressive game mechanics, dynamically adjusting AI aggressiveness to heighten tension and difficulty. The in-game camera serves a dual purpose, functioning as a vehicle for the game's combat system (utilized for capturing pictures of the ghost) and introducing a novel dimension for AI interaction with the player. The experience is enriched with in-game messages strategically placed throughout the house, keys to be discovered outdoors, a meticulously modeled house featuring diverse items, and a procedurally generated outdoor environment complete with discoverable items. This comprehensive approach enhances both the immersive storytelling and interactive components of the game."
-    ],
-    "productLink": "https://www.indiedb.com/games/poltergeist1/downloads/poltegeist-initial-release",
-    "summary": "Unleashed Poltergeist, my foray into horror game development. Employed advanced AI, varied rendering techniques, and pixel art for a chilling experience. Dynamic narrative, evolving mechanics, and immersive environment design.",
-    "languageIcons": [
-      "unity.png",
-      "c-sharp.png"
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Battleship",
-    "images": [
-      "/assets/Battleship/battleship_1.png",
-      "/assets/Battleship/battleship_2.png"
-    ],
-    "text": [
-      "Battleship emerges as an exemplar of cutting-edge full-stack development, intricately fashioned through the fusion of PHP programming language and the robust MySQL database. Meticulously crafted, this gaming application offers players a multifaceted experience, allowing for strategic ship placement, immersive multiplayer gameplay, and the preservation of persistent game states through dynamic interaction with the database. The synergy between PHP's server-side scripting and MySQL's data management prowess creates a seamless and responsive architecture, ensuring optimal communication between the user interface and the underlying database.",
-      "Central to the application's appeal is the sophisticated ship placement mechanism, where players enjoy the flexibility of strategically situating their naval fleet on the game board. PHP's dynamic scripting capabilities facilitate real-time interactions during ship placement, enhancing the user experience by providing an engaging and intuitive process. Complementing this is the seamless multiplayer functionality, orchestrated through PHP's adept handling of concurrent connections, allowing participants to engage in real-time naval warfare, creating a dynamic and competitive gaming environment. The incorporation of a MySQL database adds an additional layer of sophistication, empowering the Battleship application to maintain persistent game states. This functionality enables players to seamlessly resume their strategic endeavors, underscoring the game's commitment to delivering a comprehensive and immersive gaming experience."
-    ],
-    "projectLink": "https://github.com/matthewlow99/Battleship",
-    "summary": "Battleship showcases cutting-edge full-stack prowess, uniting PHP and MySQL for a dynamic gaming experience. Crafted for strategic ship placement, immersive multiplayer, and persistent game states, it epitomizes seamless architecture and user engagement.",
-    "languageIcons": [
-      "php.svg",
-      "mysql.png",
-      "js.png"
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Chess",
-    "images": [
-      "/assets/Chess/chess_2.png",
-      "/assets/Chess/chess_3.png"
-    ],
-    "text": [
-      "PHP Chess stands as a testament to the fusion of PHP's robust scripting capabilities and the power of MySQL, resulting in a finely tuned gaming application that brings the age-old strategy game to life in a digital realm. Developed with precision and sophistication, this chess platform not only encapsulates the essence of the classic game but also introduces modern features such as multi-player gameplay and the preservation of game states through seamless integration with a dynamic MySQL database. The intricate implementation includes precise turn handlers, comprehensive sprites, and board overlays that facilitate fluid piece movements and real-time check detection, ensuring an immersive and authentic chess experience.",
-      "At the heart of PHP Chess is its adept utilization of PHP for server-side scripting, allowing for responsive and dynamic gameplay interactions. The robust integration with MySQL adds a layer of sophistication, enabling the application to store and manage persistent game states, ensuring that players can resume their strategic chess matches at any time. The accurate turn handlers provide a smooth transition between moves, while the inclusion of full sprites enhances the visual appeal of the game. The implementation of board overlays not only simplifies piece movements but also facilitates real-time check detection, enhancing the overall user experience and strategic depth of PHP Chess. In essence, this application embodies a harmonious synergy between PHP and MySQL, delivering a captivating and feature-rich chess experience for enthusiasts of the game."
-    ],
-    "projectLink": "https://github.com/matthewlow99/ChessPHP",
-    "summary": "PHP Chess marries PHP's scripting prowess with MySQL's strength, creating a sophisticated chess platform. Modern features, robust server-side scripting, dynamic gameplay, and persistent states redefine the classic game.",
-    "languageIcons": [
-      "php.svg",
-      "mysql.png",
-      "js.png"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Mountain Lakes POA",
-    "images": [
-      "/assets/MountainLakes/ml_1.png",
-      "/assets/MountainLakes/ml_2.png"
-    ],
-    "text": [
-      "The Mountain Lakes Property Owners Association (POA) website exemplifies a sophisticated full-stack architecture, featuring a dynamic ReactJS front-end seamlessly integrated with a robust Node/Express backend for efficient data management. This comprehensive platform boasts a range of user-centric functionalities, including role-based access control, meticulous user management capabilities, secure password resets, and the ability to suspend accounts when necessary. Noteworthy features also include a streamlined announcement post system and a meticulously crafted, leap year-compliant calendar, providing users with accurate scheduling. Furthermore, the website demonstrates its versatility by effortlessly handling PDF document interactions, contributing to an all-encompassing digital experience for the Mountain Lakes community.",
-      "Underpinning the Mountain Lakes Property Owners Association (POA) website's robust functionality is a comprehensive back-end system, incorporating a full-fledged MySQL database for efficient data storage and retrieval. Security is prioritized through the implementation of password encryption techniques, ensuring the utmost protection for user accounts. Furthermore, the website's sophisticated authentication system leverages JSON web token technology, seamlessly managing login sessions and enhancing user experience by facilitating secure and uninterrupted access to the site's features. This amalgamation of advanced technologies fortifies the back-end infrastructure, providing both data integrity and a secure digital environment for the Mountain Lakes community."
-    ],
-    "productLink": "https://mountainlakestx.com",
-    "summary": "Mountain Lakes POA website showcases an advanced full-stack architecture, marrying ReactJS with Node/Express for seamless user-centric features, secure data management, and versatile document interactions. Robust MySQL backend, encrypted passwords, and JWT authentication ensure a fortified, secure digital hub for the Mountain Lakes community.",
-    "languageIcons": [
-      "react.png",
-      "mysql.png",
-      "js.png",
-      "node-js.svg"
-    ]
-  },
-  {
-    "id": 5,
     "title": "Swift Project Management",
     "images": [
       "/assets/SwiftApp/Swift1.png",
@@ -112,5 +21,124 @@
       "js.png",
       "node-js.svg"
     ]
+  },
+  {
+    "id": 1,
+    "title": "FlaskSocial",
+    "images": [
+      "/assets/FlaskSocial/img1.png",
+      "/assets/FlaskSocial/img2.png",
+      "/assets/FlaskSocial/img3.png",
+      "/assets/FlaskSocial/img4.png",
+      "/assets/FlaskSocial/img5.png",
+      "/assets/FlaskSocial/img6.png",
+      "/assets/FlaskSocial/img7.png",
+      "/assets/FlaskSocial/img8.png",
+      "/assets/FlaskSocial/img9.png"
+    ],
+    "text": [
+      "FlaskSocial marks my foray into Python web development, embodying a robust solo endeavor crafted on the Flask framework. Leveraging the flexibility of a NoSQL database, the platform seamlessly facilitates user connections through sophisticated relationship management, allowing for a captivating experience of following friends. The integration of Bootstrap CSS ensures an appealing and responsive design, striking a harmonious balance between aesthetics and functionality.",
+      "At the core of FlaskSocial lies its innovative use of websockets, enabling live chat functionality and real-time updates on friends' online status. The bespoke implementation of websockets not only fosters dynamic communication but also enhances the user experience by providing immediate feedback on social interactions. This project not only showcases my technical prowess in Python and Flask but also underscores my ability to create a feature-rich and engaging social platform with a keen eye for design and real-time interactivity."
+    ],
+    "productLink": "https://swiftpms.dev",
+    "projectLink": "https://github.com/matthewlow99/SwiftPMS",
+    "summary": "FlaskSocial showcases my expertise in Python web development, featuring a dynamic solo-built platform powered by Flask, NoSQL database, websockets, and Bootstrap CSS. With seamless friend-following, live chats, and real-time online status updates, it combines aesthetics with functionality.",
+    "languageIcons": [
+      "python.png",
+      "web_socket.png",
+      "flask.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mountain Lakes POA",
+    "images": [
+      "/assets/MountainLakes/ml_1.png",
+      "/assets/MountainLakes/ml_2.png"
+    ],
+    "text": [
+      "The Mountain Lakes Property Owners Association (POA) website exemplifies a sophisticated full-stack architecture, featuring a dynamic ReactJS front-end seamlessly integrated with a robust Node/Express backend for efficient data management. This comprehensive platform boasts a range of user-centric functionalities, including role-based access control, meticulous user management capabilities, secure password resets, and the ability to suspend accounts when necessary. Noteworthy features also include a streamlined announcement post system and a meticulously crafted, leap year-compliant calendar, providing users with accurate scheduling. Furthermore, the website demonstrates its versatility by effortlessly handling PDF document interactions, contributing to an all-encompassing digital experience for the Mountain Lakes community.",
+      "Underpinning the Mountain Lakes Property Owners Association (POA) website's robust functionality is a comprehensive back-end system, incorporating a full-fledged MySQL database for efficient data storage and retrieval. Security is prioritized through the implementation of password encryption techniques, ensuring the utmost protection for user accounts. Furthermore, the website's sophisticated authentication system leverages JSON web token technology, seamlessly managing login sessions and enhancing user experience by facilitating secure and uninterrupted access to the site's features. This amalgamation of advanced technologies fortifies the back-end infrastructure, providing both data integrity and a secure digital environment for the Mountain Lakes community."
+    ],
+    "productLink": "https://mountainlakestx.com",
+    "summary": "Mountain Lakes POA website showcases an advanced full-stack architecture, marrying ReactJS with Node/Express for seamless user-centric features, secure data management, and versatile document interactions. Robust MySQL backend, encrypted passwords, and JWT authentication ensure a fortified, secure digital hub for the Mountain Lakes community.",
+    "languageIcons": [
+      "react.png",
+      "mysql.png",
+      "js.png",
+      "node-js.svg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Battleship",
+    "images": [
+      "/assets/Battleship/battleship_1.png",
+      "/assets/Battleship/battleship_2.png"
+    ],
+    "text": [
+      "Battleship emerges as an exemplar of cutting-edge full-stack development, intricately fashioned through the fusion of PHP programming language and the robust MySQL database. Meticulously crafted, this gaming application offers players a multifaceted experience, allowing for strategic ship placement, immersive multiplayer gameplay, and the preservation of persistent game states through dynamic interaction with the database. The synergy between PHP's server-side scripting and MySQL's data management prowess creates a seamless and responsive architecture, ensuring optimal communication between the user interface and the underlying database.",
+      "Central to the application's appeal is the sophisticated ship placement mechanism, where players enjoy the flexibility of strategically situating their naval fleet on the game board. PHP's dynamic scripting capabilities facilitate real-time interactions during ship placement, enhancing the user experience by providing an engaging and intuitive process. Complementing this is the seamless multiplayer functionality, orchestrated through PHP's adept handling of concurrent connections, allowing participants to engage in real-time naval warfare, creating a dynamic and competitive gaming environment. The incorporation of a MySQL database adds an additional layer of sophistication, empowering the Battleship application to maintain persistent game states. This functionality enables players to seamlessly resume their strategic endeavors, underscoring the game's commitment to delivering a comprehensive and immersive gaming experience."
+    ],
+    "projectLink": "https://github.com/matthewlow99/Battleship",
+    "summary": "Battleship showcases cutting-edge full-stack prowess, uniting PHP and MySQL for a dynamic gaming experience. Crafted for strategic ship placement, immersive multiplayer, and persistent game states, it epitomizes seamless architecture and user engagement.",
+    "languageIcons": [
+      "php.svg",
+      "mysql.png",
+      "js.png"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chess",
+    "images": [
+      "/assets/Chess/chess_2.png",
+      "/assets/Chess/chess_3.png"
+    ],
+    "text": [
+      "PHP Chess stands as a testament to the fusion of PHP's robust scripting capabilities and the power of MySQL, resulting in a finely tuned gaming application that brings the age-old strategy game to life in a digital realm. Developed with precision and sophistication, this chess platform not only encapsulates the essence of the classic game but also introduces modern features such as multi-player gameplay and the preservation of game states through seamless integration with a dynamic MySQL database. The intricate implementation includes precise turn handlers, comprehensive sprites, and board overlays that facilitate fluid piece movements and real-time check detection, ensuring an immersive and authentic chess experience.",
+      "At the heart of PHP Chess is its adept utilization of PHP for server-side scripting, allowing for responsive and dynamic gameplay interactions. The robust integration with MySQL adds a layer of sophistication, enabling the application to store and manage persistent game states, ensuring that players can resume their strategic chess matches at any time. The accurate turn handlers provide a smooth transition between moves, while the inclusion of full sprites enhances the visual appeal of the game. The implementation of board overlays not only simplifies piece movements but also facilitates real-time check detection, enhancing the overall user experience and strategic depth of PHP Chess. In essence, this application embodies a harmonious synergy between PHP and MySQL, delivering a captivating and feature-rich chess experience for enthusiasts of the game."
+    ],
+    "projectLink": "https://github.com/matthewlow99/ChessPHP",
+    "summary": "PHP Chess marries PHP's scripting prowess with MySQL's strength, creating a sophisticated chess platform. Modern features, robust server-side scripting, dynamic gameplay, and persistent states redefine the classic game.",
+    "languageIcons": [
+      "php.svg",
+      "mysql.png",
+      "js.png"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Football QB Simulator",
+    "images": ["/assets/QB_images/qb_img1.png", "/assets/QB_images/qb_img3.png"],
+    "text": [
+      "Football QB Sim marked the inception of my Unity project endeavors in late 2020.Throughout its development, I independently acquired proficiency in fundamental aspects of the Unity Engine, 3D modeling, C# programming, and the exploration of diverse artificial intelligence models tailored for defensive gameplay. While the gameplay itself adheres to a foundational framework, it strategically accommodates player skill progression, thereby offering an engaging and evolving user experience.",
+      "The defensive capabilities have undergone substantial enhancements throughout the development cycle. In the initial stages, the defensive models operated on a predetermined 'dropback' timer, transitioning uniformly into a pursuit state. While effective for longer plays, this approach proved vulnerable to exploitation in the case of short plays, as it lacked responsiveness to receiver cuts. In the current defensive model, the utilization of dropback and pursuit states persists, albeit with a refined methodology. The transition between these states is now triggered by a dynamic assessment of the distance between the receiver and the defender. Specifically, the transition initiates as soon as the distance begins to increase. This strategic modification not only ensures consistent performance for extended routes but also imparts a sense of equilibrium to the defensive response in the context of short routes."
+    ],
+    "productLink": "https://www.indiedb.com/games/football-qb-sim/downloads/qb-4-0",
+    "summary": "Revolutionized Unity project—Football QB Sim, mastering Unity Engine, 3D modeling, and AI models for adaptive defense. Precision gameplay, dynamic transitions, and evolving user engagement.",
+    "languageIcons": [
+      "unity.png",
+      "c-sharp.png"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Poltergeist",
+    "images": [
+      "/assets/Poltergeist/game_img1.PNG",
+      "/assets/Poltergeist/game_img2.PNG"
+    ],
+    "text": [
+      "Poltergeist marked my initial venture into developing a horror experience, incorporating a roaming ghost AI, diverse rendering methods for the in-game camera, and a deliberate pixelated art style. The AI orchestrates random interactions, including moving item props, opening/closing doors, turning lights off, knocking on walls, footsteps, and visual appearances.",
+      "Poltergeist seamlessly incorporates narrative elements and progressive game mechanics, dynamically adjusting AI aggressiveness to heighten tension and difficulty. The in-game camera serves a dual purpose, functioning as a vehicle for the game's combat system (utilized for capturing pictures of the ghost) and introducing a novel dimension for AI interaction with the player. The experience is enriched with in-game messages strategically placed throughout the house, keys to be discovered outdoors, a meticulously modeled house featuring diverse items, and a procedurally generated outdoor environment complete with discoverable items. This comprehensive approach enhances both the immersive storytelling and interactive components of the game."
+    ],
+    "productLink": "https://www.indiedb.com/games/poltergeist1/downloads/poltegeist-initial-release",
+    "summary": "Unleashed Poltergeist, my foray into horror game development. Employed advanced AI, varied rendering techniques, and pixel art for a chilling experience. Dynamic narrative, evolving mechanics, and immersive environment design.",
+    "languageIcons": [
+      "unity.png",
+      "c-sharp.png"
+    ]
   }
+
 ]
