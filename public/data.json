@@ -40,8 +40,7 @@
       "FlaskSocial marks my foray into Python web development, embodying a robust solo endeavor crafted on the Flask framework. Leveraging the flexibility of a NoSQL database, the platform seamlessly facilitates user connections through sophisticated relationship management, allowing for a captivating experience of following friends. The integration of Bootstrap CSS ensures an appealing and responsive design, striking a harmonious balance between aesthetics and functionality.",
       "At the core of FlaskSocial lies its innovative use of websockets, enabling live chat functionality and real-time updates on friends' online status. The bespoke implementation of websockets not only fosters dynamic communication but also enhances the user experience by providing immediate feedback on social interactions. This project not only showcases my technical prowess in Python and Flask but also underscores my ability to create a feature-rich and engaging social platform with a keen eye for design and real-time interactivity."
     ],
-    "productLink": "https://swiftpms.dev",
-    "projectLink": "https://github.com/matthewlow99/SwiftPMS",
+    "projectLink": "https://github.com/matthewlow99/FlaskSocial",
     "summary": "FlaskSocial showcases my expertise in Python web development, featuring a dynamic solo-built platform powered by Flask, NoSQL database, websockets, and Bootstrap CSS. With seamless friend-following, live chats, and real-time online status updates, it combines aesthetics with functionality.",
     "languageIcons": [
       "python.png",
