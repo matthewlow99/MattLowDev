@@ -8,8 +8,8 @@
 
 <style>
     .languageImage {
-        height: 50px;
-        width: 50px;
+        max-height: 50px;
+        max-width: 50px;
         /*background-color: gray;*/
         border-radius: 50%;
     }

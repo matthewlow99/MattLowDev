@@ -18,7 +18,7 @@
 </script>
 
 
-<main>
+<main class="container-fluid mw-100" style="margin: 0; width: 100%">
 
 	{#if pageIndex === 0}
 		<Heading tranistion:fade {changePageIndex}/>
