@@ -27,14 +27,14 @@
         /*font-family: Cinzel;*/
         /*color: yellow;*/
         color: white;
-        font-size: 5em;
+        font-size: 4rem;
         opacity: 0;
         letter-spacing: 2px;
     }
     .optionText {
         opacity: 0;
         color: lightgray;
-        font-size: 2em;
+        font-size: 2rem;
         width: 100%;
         text-align: center;
         padding: 5px 10px;
